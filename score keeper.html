@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scorekeeper.css">
+</head>
+<body>
+	<div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4">A simple web application that'll help you keep track of your scores</h1>
+      </div>
+    </div>
+
+	<h2 class="display-3"> <span id="p1Display">0</span> : <span id="p2Display">0</span></h2>
+	<p>Playing to: <span id="maxT"></span></p>
+		<input type="number">
+		<div>
+			<button class="btn btn-info">Player One</button>
+			<button class="btn btn-warning">Player Two</button>
+		</div>
+		<button class="btn btn-danger" id="reset-btn">Reset</button>
+
+	<script type="text/javascript" src="Score keeper.js"></script>
+</body>
+</html>

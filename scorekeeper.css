@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+}
+.colorC1{
+	color:#17a2b8;
+}
+.colorC2{
+	color:#ffc107;
+}
+.jumbotron{
+    color: black;
+    margin-bottom: 8px;
+    padding:70px;
+    height: 100px;
+}
+.display-3{
+	font-size: 5em;
+}
+.display-4{
+	font-size:2em;
+	margin-bottom:5px;
+	vertical-align: middle;
+}
+.btn{
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:0px;
+	width:150px;
+	color:white;
+}
+#reset-btn{
+	margin-top: 10px;
+	width:70px;
+	height:30px;
+	vertical-align:center;
+	line-height: 10px
+}
+p{
+	margin-bottom:5px;
+}
